@@ -41,11 +41,28 @@ html {
     font-size: 0.7em;
     margin: 0;
 }
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 500px)
  {
-    .main-nav {
+    .menubar{
         font-size: 0.5em;
         padding: 0;
+    }
+   .hbuttons{
+        display:flex;
+        flex-direction:column;
+        
+    }
+    .btn{
+        margin-top:20px;
+        margin-bottom:20px;
+        margin-left:20px;
+    }
+    .logo img{
+        display:none;
+    }
+    .foot{
+        position:fixed;
+        
     }
  }
 .push
