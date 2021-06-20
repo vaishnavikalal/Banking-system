@@ -229,8 +229,6 @@ $mysqli->close();
      </section>
          
 </div>
- <footer>
-    <p>&copy;2020-2023 STJV co-operative bank ltd</p>
-  </footer>
+
 </body>
 </html>
